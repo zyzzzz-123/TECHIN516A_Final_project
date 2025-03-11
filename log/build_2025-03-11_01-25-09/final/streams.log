@@ -1,0 +1,39 @@
+[1.139s] Invoking command in '/home/yuzhez23@netid.washington.edu/ros2_ws/src/final': PYTHONPATH=/home/yuzhez23@netid.washington.edu/ros2_ws/src/final/build/final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuzhez23@netid.washington.edu/ros2_ws/src/final/install/final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/final build --build-base /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/build/final/build install --record /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/build/final/install.log --single-version-externally-managed install_data
+[1.633s] running egg_info
+[1.636s] creating build/final/final.egg-info
+[1.636s] writing build/final/final.egg-info/PKG-INFO
+[1.638s] writing dependency_links to build/final/final.egg-info/dependency_links.txt
+[1.638s] writing entry points to build/final/final.egg-info/entry_points.txt
+[1.639s] writing requirements to build/final/final.egg-info/requires.txt
+[1.639s] writing top-level names to build/final/final.egg-info/top_level.txt
+[1.639s] writing manifest file 'build/final/final.egg-info/SOURCES.txt'
+[1.642s] reading manifest file 'build/final/final.egg-info/SOURCES.txt'
+[1.643s] writing manifest file 'build/final/final.egg-info/SOURCES.txt'
+[1.644s] running build
+[1.644s] running build_py
+[1.644s] creating /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/build/final/build
+[1.644s] creating /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/build/final/build/lib
+[1.644s] creating /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/build/final/build/lib/final
+[1.644s] copying final/lab8.py -> /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/build/final/build/lib/final
+[1.644s] copying final/gen3lite_pymoveit2.py -> /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/build/final/build/lib/final
+[1.644s] copying final/__init__.py -> /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/build/final/build/lib/final
+[1.645s] running install
+[1.645s] running install_lib
+[1.646s] creating /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/install/final/lib/python3.10/site-packages/final
+[1.646s] copying /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/build/final/build/lib/final/lab8.py -> /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/install/final/lib/python3.10/site-packages/final
+[1.646s] copying /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/build/final/build/lib/final/gen3lite_pymoveit2.py -> /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/install/final/lib/python3.10/site-packages/final
+[1.646s] copying /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/build/final/build/lib/final/__init__.py -> /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/install/final/lib/python3.10/site-packages/final
+[1.647s] byte-compiling /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/install/final/lib/python3.10/site-packages/final/lab8.py to lab8.cpython-310.pyc
+[1.648s] byte-compiling /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/install/final/lib/python3.10/site-packages/final/gen3lite_pymoveit2.py to gen3lite_pymoveit2.cpython-310.pyc
+[1.649s] byte-compiling /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/install/final/lib/python3.10/site-packages/final/__init__.py to __init__.cpython-310.pyc
+[1.650s] running install_data
+[1.650s] creating /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/install/final/share/ament_index
+[1.650s] creating /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/install/final/share/ament_index/resource_index
+[1.650s] creating /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/install/final/share/ament_index/resource_index/packages
+[1.650s] copying resource/final -> /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/install/final/share/ament_index/resource_index/packages
+[1.650s] copying package.xml -> /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/install/final/share/final
+[1.650s] running install_egg_info
+[1.652s] Copying build/final/final.egg-info to /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/install/final/lib/python3.10/site-packages/final-0.0.0-py3.10.egg-info
+[1.653s] running install_scripts
+[1.686s] writing list of installed files to '/home/yuzhez23@netid.washington.edu/ros2_ws/src/final/build/final/install.log'
+[1.745s] Invoked command in '/home/yuzhez23@netid.washington.edu/ros2_ws/src/final' returned '0': PYTHONPATH=/home/yuzhez23@netid.washington.edu/ros2_ws/src/final/build/final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuzhez23@netid.washington.edu/ros2_ws/src/final/install/final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/final build --build-base /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/build/final/build install --record /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/build/final/install.log --single-version-externally-managed install_data
