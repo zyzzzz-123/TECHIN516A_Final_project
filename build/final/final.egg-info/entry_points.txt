@@ -1,3 +1,4 @@
 [console_scripts]
 arm = final.arm:main
+turtlebot = final.turtlebot:main
 

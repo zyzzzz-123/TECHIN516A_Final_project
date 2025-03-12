@@ -8,15 +8,13 @@ reading manifest file 'build/final/final.egg-info/SOURCES.txt'
 writing manifest file 'build/final/final.egg-info/SOURCES.txt'
 running build
 running build_py
-copying final/arm.py -> /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/build/final/build/lib/final
 running install
 running install_lib
-copying /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/build/final/build/lib/final/arm.py -> /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/install/final/lib/python3.10/site-packages/final
-byte-compiling /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/install/final/lib/python3.10/site-packages/final/arm.py to arm.cpython-310.pyc
 running install_data
 running install_egg_info
 removing '/home/yuzhez23@netid.washington.edu/ros2_ws/src/final/install/final/lib/python3.10/site-packages/final-0.0.0-py3.10.egg-info' (and everything under it)
 Copying build/final/final.egg-info to /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/install/final/lib/python3.10/site-packages/final-0.0.0-py3.10.egg-info
 running install_scripts
 Installing arm script to /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/install/final/lib/final
+Installing turtlebot script to /home/yuzhez23@netid.washington.edu/ros2_ws/src/final/install/final/lib/final
 writing list of installed files to '/home/yuzhez23@netid.washington.edu/ros2_ws/src/final/build/final/install.log'

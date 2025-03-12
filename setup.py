@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "arm = final.arm:main"
+            "arm = final.arm:main",
+            "turtlebot = final.turtlebot:main"
         ],
     },
 )

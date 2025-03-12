@@ -102,30 +102,20 @@ def main():
 
     print("starting... ")
     # # run forward first 
-    # odom_cl = OdomCloseLoop(target_distance=1.6)
-    # while rclpy.ok() and not odom_cl.movement_complete:
-    #     rclpy.spin_once(odom_cl)
-    # odom_cl.destroy_node()
+    odom_cl = OdomCloseLoop(target_distance=1.7)
+    while rclpy.ok() and not odom_cl.movement_complete:
+        rclpy.spin_once(odom_cl)
+    odom_cl.destroy_node()
     # time.sleep(1)
-    # print("first part finished.")
+    print("first part finished.")
 
     # pick the tube and put it on the turtlebot
-    gripper.move_to_position(0.0)
-    poses = load_poses_from_csv("/home/yuzhez23@netid.washington.edu/ros2_ws/src/final/final/final.csv")
-
-    move(arm,poses["point1"])
-    move(arm,poses["point2"])
-    gripper.move_to_position(0.7)
-    move(arm,poses["point3"])
-    arm.go_vertical()
-    move(arm,poses["point4"])
-    gripper.move_to_position(0.0)
 
 
-    # odom_cl = OdomCloseLoop(direction=-1, target_distance = 1.6)
-    # while rclpy.ok() and not odom_cl.movement_complete:
-    #     rclpy.spin_once(odom_cl)
-    # odom_cl.destroy_node()
+    odom_cl = OdomCloseLoop(direction=-1, target_distance = 1.7)
+    while rclpy.ok() and not odom_cl.movement_complete:
+        rclpy.spin_once(odom_cl)
+    odom_cl.destroy_node()
 
     gripper.shutdown()
     arm.shutdown()
